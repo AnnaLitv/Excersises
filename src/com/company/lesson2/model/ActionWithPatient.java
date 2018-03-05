@@ -1,7 +1,9 @@
-package com.company.lesson2;
+package com.company.lesson2.model;
+
+import com.company.lesson2.ComparatorPerson;
+import com.company.lesson2.entities.Patient;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -9,7 +11,7 @@ public class ActionWithPatient {
 
     private ArrayList<Patient> patients;
 
-    ActionWithPatient(){
+    public ActionWithPatient(){
         patients = new ArrayList<>();
     }
 

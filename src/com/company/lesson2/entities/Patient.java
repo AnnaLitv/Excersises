@@ -1,6 +1,4 @@
-package com.company.lesson2;
-
-import java.util.Comparator;
+package com.company.lesson2.entities;
 
 public class Patient {
     private String firstName;
