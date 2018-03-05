@@ -53,14 +53,13 @@ public class Runner {
                     }
                     break;
                 case 3:
-                    List<Patient> patients3 = actionWithPatient.sortPatients();
-                    for (Patient p:patients3) {
+
+                    for (Patient p: actionWithPatient.sortPatients()) {
                         System.out.println(p.toString());
                     }
                     break;
                 case 4:
-                    ArrayList<Patient> patients2 = actionWithPatient.getPatients();
-                    for (Patient p:patients2) {
+                    for (Patient p:actionWithPatient.getPatients()) {
                         System.out.println(p.toString());
                     }
                     break;
