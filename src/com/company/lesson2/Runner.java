@@ -1,6 +1,7 @@
 package com.company.lesson2;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Runner {
@@ -38,13 +39,30 @@ public class Runner {
                     }
                     break;
                 case 2:
-                    System.out.println("2");
+                    System.out.println("Введите начало диапазона: ");
+                    int start = in.nextInt();
+                    System.out.println("Введите конец диапазона: ");
+                    int end = in.nextInt();
+                    ArrayList<Patient> patients1 = actionWithPatient.getPatientsFromDiapason(start,end);
+                    if(patients1!=null){
+                        for (Patient p:patients1) {
+                            System.out.println(p.toString());
+                        }
+                    }else {
+                        System.out.println("Нет пациэнтов в этом диапазоне");
+                    }
                     break;
                 case 3:
-                    System.out.println("3");
+                    List<Patient> patients3 = actionWithPatient.sortPatients();
+                    for (Patient p:patients3) {
+                        System.out.println(p.toString());
+                    }
                     break;
                 case 4:
-                    System.out.println("4");
+                    ArrayList<Patient> patients2 = actionWithPatient.getPatients();
+                    for (Patient p:patients2) {
+                        System.out.println(p.toString());
+                    }
                     break;
                 default:
                     break;

@@ -1,6 +1,9 @@
 package com.company.lesson2;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 
 public class ActionWithPatient {
 
@@ -17,17 +20,30 @@ public class ActionWithPatient {
                 patientsWithDiagnos.add(p);
             }
         }
-        return patientsWithDiagnos;
+        if(patientsWithDiagnos.size()==0){
+            return null;
+        } else
+            return patientsWithDiagnos;
     }
 
     public ArrayList<Patient> getPatientsFromDiapason(int start, int end) {
         ArrayList<Patient> patients1 = new ArrayList<>();
         for (Patient p: patients) {
-            if((p.getNumberOfMed()>start)&(p.getNumberOfMed()<end)){
+            if((p.getNumberOfMed()>=start)&(p.getNumberOfMed()<=end)){
                 patients1.add(p);
             }
         }
-        return patients1;
+        if(patients1.size()==0){
+            return null;
+        }else
+            return patients1;
+    }
+
+    public List<Patient> sortPatients(){
+        ComparatorPerson comparatorPerson = new ComparatorPerson();
+        List<Patient> patientsSorted = patients;
+        Collections.sort(patientsSorted,comparatorPerson);
+        return patientsSorted;
     }
 
     private void addPatient(Patient patient){
@@ -56,5 +72,9 @@ public class ActionWithPatient {
         addPatient(new Patient("Лев","Толстой","Николаевич","ул.Пушкинская 90",
                 "0892364516",45,"Амнезия"));
 
+    }
+
+    public ArrayList<Patient> getPatients() {
+        return patients;
     }
 }
