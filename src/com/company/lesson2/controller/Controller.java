@@ -1,12 +1,11 @@
 package com.company.lesson2.controller;
 
-import com.company.lesson2.entities.Patient;
+import com.company.lesson2.model.entities.Patient;
 import com.company.lesson2.model.ActionWithPatient;
 import com.company.lesson2.utilities.InputUtility;
 import com.company.lesson2.view.Viewer;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Controller {
 

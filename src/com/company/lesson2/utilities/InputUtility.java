@@ -4,17 +4,16 @@ import java.util.Scanner;
 
 public class InputUtility {
 
-    Scanner in ;
-    public InputUtility(){
+    static Scanner in ;
+    public  InputUtility(){
         in = new Scanner(System.in);
     }
 
-    public String enterDiagnos(){
-        String str = in.nextLine();
-        return str;
+    public static String enterDiagnos(){
+        return in.nextLine();
     }
 
-    public int enterInt(){
+    public static int enterInt(){
         int n = in.nextInt();
         in.nextLine();
         return n;

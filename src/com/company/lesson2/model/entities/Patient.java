@@ -1,4 +1,4 @@
-package com.company.lesson2.entities;
+package com.company.lesson2.model.entities;
 
 public class Patient {
     private String firstName;
