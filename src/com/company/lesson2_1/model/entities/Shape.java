@@ -5,7 +5,8 @@ import com.company.lesson2_1.model.entities.Drawable;
 public abstract class Shape implements Drawable {
     public String shapeColor;
 
-    Shape(){
+    Shape(String shapeColor){
+        this.shapeColor=shapeColor;
     }
 
     public abstract double calcArea();
