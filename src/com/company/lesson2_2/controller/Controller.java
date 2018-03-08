@@ -1,9 +1,9 @@
-package com.company.lesson2.controller;
+package com.company.lesson2_2.controller;
 
-import com.company.lesson2.model.entities.Patient;
-import com.company.lesson2.model.ActionWithPatient;
-import com.company.lesson2.utilities.InputUtility;
-import com.company.lesson2.view.Viewer;
+import com.company.lesson2_2.model.entities.Patient;
+import com.company.lesson2_2.model.ActionWithPatient;
+import com.company.lesson2_2.utilities.InputUtility;
+import com.company.lesson2_2.view.Viewer;
 
 import java.util.ArrayList;
 

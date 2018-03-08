@@ -1,4 +1,4 @@
-package com.company.lesson2.utilities;
+package com.company.lesson2_2.utilities;
 
 import java.util.Scanner;
 

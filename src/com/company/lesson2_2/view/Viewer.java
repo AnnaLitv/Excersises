@@ -1,6 +1,6 @@
-package com.company.lesson2.view;
+package com.company.lesson2_2.view;
 
-import com.company.lesson2.model.entities.Patient;
+import com.company.lesson2_2.model.entities.Patient;
 
 import java.util.List;
 
