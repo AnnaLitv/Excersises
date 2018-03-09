@@ -4,6 +4,7 @@ import com.company.lesson2_1.model.entities.Drawable;
 
 public abstract class Shape implements Drawable {
     public String shapeColor;
+    int numb;
 
     Shape(String shapeColor){
         this.shapeColor=shapeColor;
@@ -13,6 +14,14 @@ public abstract class Shape implements Drawable {
 
     @Override
     public String toString() {
-        return super.toString();
+        return " and I'm "+shapeColor;
+    }
+
+    public int getNumb() {
+        return numb;
+    }
+
+    public void setNumb(int numb) {
+        this.numb = numb;
     }
 }

@@ -6,7 +6,7 @@ public class Circle extends Shape {
     private double radi;
     private final double pi = Math.PI;
 
-    Circle(String color, double radi){
+    public Circle(String color, double radi){
         super(color);
         this.radi=radi;
     }
@@ -23,8 +23,8 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return "Circle{" +
-                "shapeColor='" + shapeColor + '\'' +
-                '}';
+        return getNumb()+" I'm Circle:" +
+                " radi = "+radi+super.toString()+" area = "+calcArea();
     }
+
 }

@@ -5,7 +5,7 @@ public class Rectangle extends Shape {
     private double a;
     private double b;
 
-    Rectangle(String color, double a, double b){
+    public Rectangle(String color, double a, double b){
         super(color);
         this.a=a;
         this.b=b;
@@ -23,8 +23,10 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return "Rectangle{" +
-                "shapeColor='" + shapeColor + '\'' +
-                '}';
+        return getNumb()+" I'm Rectangle:" +
+                " a = "+a+" b = "+b+super.toString()+" area = "+calcArea();
+    }
+    public int getNumb(){
+        return this.numb;
     }
 }
