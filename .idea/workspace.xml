@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcca236d-d298-4f11-bb7f-f7d8d92e992f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_1/Runner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_1/Store.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_1/main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_2/Runner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_2/Train.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_2/Wagon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_2/WagonRestoran.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_2/WagonSit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_2/WagonSleep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_2/main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/EnumExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/Runner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/controller/Controller.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/controller/Controller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/main.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/model/ComparatorArea.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/model/ComparatorArea.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/model/ComparatorColor.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/model/ComparatorColor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/model/ShapesTeam.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/model/ShapesTeam.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/model/entities/Circle.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/model/entities/Circle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/model/entities/Drawable.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/model/entities/Drawable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/model/entities/Rectangle.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/model/entities/Rectangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/model/entities/Shape.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/model/entities/Shape.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/model/entities/Triangle.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/model/entities/Triangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/utilities/Input.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/utilities/Input.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_1/view/Viewer.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_1/view/Viewer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_2/controller/Controller.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_2/controller/Controller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_2/main.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_2/main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_2/model/ActionWithPatient.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_2/model/ActionWithPatient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_2/model/ComparatorPerson.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_2/model/ComparatorPerson.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_2/model/entities/Patient.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_2/model/entities/Patient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_2/utilities/InputUtility.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_2/utilities/InputUtility.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/lesson2_2/view/Viewer.java" afterPath="$PROJECT_DIR$/src/com/company/lesson2/lesson2_2/view/Viewer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/EnumExample.java" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/EnumExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/Runner.java" afterPath="$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/Runner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,8 +114,8 @@
       <file leaf-file-name="EnumExample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/EnumExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="149">
+              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#valueOf#0;class#EnumExample#0" expanded="false" />
@@ -158,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,8 +137,8 @@
       <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="73" lean-forward="false" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -244,8 +214,8 @@
         <option value="$PROJECT_DIR$/src/com/company/lesson3/lesson3_2/Train.java" />
         <option value="$PROJECT_DIR$/src/com/company/lesson3/lesson3_2/Runner.java" />
         <option value="$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/EnumExample.java" />
         <option value="$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/Runner.java" />
+        <option value="$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/EnumExample.java" />
       </list>
     </option>
   </component>
@@ -257,7 +227,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="697" />
+    <option name="width" value="641" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -331,7 +301,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java EE" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -509,7 +479,7 @@
       <workItem from="1520006905890" duration="13264000" />
       <workItem from="1520427311850" duration="11349000" />
       <workItem from="1520862199838" duration="14247000" />
-      <workItem from="1521193878992" duration="2971000" />
+      <workItem from="1521193878992" duration="4919000" />
     </task>
     <task id="LOCAL-00001" summary="create epam repo">
       <created>1520253572875</created>
@@ -560,11 +530,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520584633910</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finished lesson2_1">
+      <created>1521196906816</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1521196906816</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53246000" />
+    <option name="totallyTimeSpent" value="55194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -578,7 +555,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26350245" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27986908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5695581" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -683,6 +660,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -704,6 +682,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -739,6 +720,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -774,6 +756,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -781,6 +766,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="method#Patient#0;class#Patient#0" expanded="false" />
+            <element signature="method#equals#0;class#Patient#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -788,6 +777,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -795,6 +785,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="17" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -802,6 +793,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="21" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#1164#1165#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -809,6 +803,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -816,6 +813,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -833,6 +831,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="method#diagnosCheck#0;class#ActionWithPatient#0" expanded="false" />
+            <element signature="method#getPatientsFromDiapason#0;class#ActionWithPatient#0" expanded="false" />
+            <element signature="method#fillStandart#0;class#ActionWithPatient#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -840,6 +843,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -858,6 +864,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -865,6 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -872,6 +880,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -879,6 +890,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#443#444#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -886,6 +902,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -893,6 +910,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -900,6 +920,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <element signature="e#972#973#0" expanded="false" />
+            <element signature="e#1012#1013#0" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1103#1104#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -907,6 +933,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#ShapesTeam#0;class#ShapesTeam#0" expanded="false" />
+            <element signature="method#calcTypeArea#0;class#ShapesTeam#0" expanded="false" />
+            <element signature="method#standartInit#0;class#ShapesTeam#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -916,6 +948,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+            <element signature="e#496#497#0" expanded="false" />
+            <element signature="e#526#527#0" expanded="false" />
+            <element signature="e#555#556#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1016,26 +1058,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="73" lean-forward="false" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/lesson3/lesson3_3/EnumExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="149">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#valueOf#0;class#EnumExample#0" expanded="false" />

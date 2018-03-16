@@ -7,21 +7,22 @@ import java.util.HashMap;
 public class EnumExample<E extends EnumExample<E>> {
     private final String name;
     private final int ordinal;
+    private static int count;
     private static HashMap<String,EnumExample> map = new HashMap<>();
 
-    private EnumExample(String name, int ordinal){
+    private EnumExample(String name){
         this.name=name;
-        this.ordinal=ordinal;
+        this.ordinal=count++;
         map.put(name,this);
     }
 
-    public static EnumExample RED = new EnumExample("RED",1);
-    public static EnumExample ORANGE = new EnumExample("ORANGE",2);
-    public static EnumExample YELLOW = new EnumExample("YELLOW",3);
-    public static EnumExample GREEN = new EnumExample("GREEN",4);
-    public static EnumExample SKYBLUE = new EnumExample("SKYBLUE",5);
-    public static EnumExample BLUE = new EnumExample("BLUE",6);
-    public static EnumExample  PURPLE= new EnumExample("PURPLE",7);
+    public static EnumExample RED = new EnumExample("RED");
+    public static EnumExample ORANGE = new EnumExample("ORANGE");
+    public static EnumExample YELLOW = new EnumExample("YELLOW");
+    public static EnumExample GREEN = new EnumExample("GREEN");
+    public static EnumExample SKYBLUE = new EnumExample("SKYBLUE");
+    public static EnumExample BLUE = new EnumExample("BLUE");
+    public static EnumExample  PURPLE= new EnumExample("PURPLE");
 
     public final String getName() {
         return name;
@@ -50,7 +51,6 @@ public class EnumExample<E extends EnumExample<E>> {
         }
       return map.get(name);
     }
-
 
     public final int compareTo(EnumExample o) {
         return ordinal - o.ordinal;

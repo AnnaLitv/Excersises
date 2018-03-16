@@ -6,5 +6,7 @@ public class Runner {
         System.out.println(EnumExample.valueOf("GREEN").getOrdinal());
         System.out.println(EnumExample.PURPLE.getName());
         System.out.println(EnumExample.PURPLE.getOrdinal());
+        System.out.println(EnumExample.RED.equals(EnumExample.RED));
+        System.out.println(EnumExample.ORANGE.equals(EnumExample.GREEN));
     }
 }
