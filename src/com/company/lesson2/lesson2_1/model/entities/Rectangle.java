@@ -13,7 +13,8 @@ public class Rectangle extends Shape {
 
     @Override
     public double calcArea() {
-        return a*b;
+
+        return Math.round(a*b*100.0)/100.0;
     }
 
     @Override
@@ -28,5 +29,27 @@ public class Rectangle extends Shape {
     }
     public int getNumb(){
         return this.numb;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Rectangle rectangle = (Rectangle) o;
+
+        if (Double.compare(rectangle.a, a) != 0) return false;
+        return Double.compare(rectangle.b, b) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        int result;
+        long temp;
+        temp = Double.doubleToLongBits(a);
+        result = (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(b);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        return result;
     }
 }

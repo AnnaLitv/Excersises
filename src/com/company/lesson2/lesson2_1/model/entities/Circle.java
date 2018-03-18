@@ -1,6 +1,8 @@
 package com.company.lesson2.lesson2_1.model.entities;
 
 
+import java.text.DecimalFormat;
+
 public class Circle extends Shape {
 
     private double radi;
@@ -13,7 +15,7 @@ public class Circle extends Shape {
 
     @Override
     public double calcArea() {
-        return pi*Math.pow(radi,2);
+        return Math.round(pi*Math.pow(radi,2)*100.0)/100.0;
     }
 
     @Override
@@ -27,4 +29,25 @@ public class Circle extends Shape {
                 " radi = "+radi+super.toString()+" area = "+calcArea();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Circle circle = (Circle) o;
+
+        if (Double.compare(circle.radi, radi) != 0) return false;
+        return Double.compare(circle.pi, pi) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        int result;
+        long temp;
+        temp = Double.doubleToLongBits(radi);
+        result = (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(pi);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        return result;
+    }
 }
