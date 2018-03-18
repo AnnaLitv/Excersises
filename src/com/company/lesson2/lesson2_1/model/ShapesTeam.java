@@ -53,18 +53,6 @@ public class ShapesTeam {
         return area;
     }
 
-//    public void printAreas(){
-//        for (Shape shape:shapes) {
-//            System.out.println(shape.calcArea());
-//        }
-//    }
-//
-//    public void print(){
-//        for (Shape shape:shapes) {
-//            System.out.println(shape.toString());
-//        }
-//    }
-
 
     public Shape[] sortByArea(){
         ComparatorArea comparatorArea = new ComparatorArea();

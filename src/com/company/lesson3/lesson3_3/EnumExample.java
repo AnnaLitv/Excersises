@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 
-public class EnumExample<E extends EnumExample<E>> {
+public class EnumExample {
     private final String name;
     private final int ordinal;
-    private static int count;
+    private static int count=1;
     private static HashMap<String,EnumExample> map = new HashMap<>();
 
     private EnumExample(String name){
