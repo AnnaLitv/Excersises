@@ -1,6 +1,3 @@
-package com.company.lesson4.src.test.java;
-
-import com.company.lesson4.src.main.java.TemperatureConverter;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 

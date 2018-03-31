@@ -1,8 +1,7 @@
-package com.company.lesson4.src.main.java;
 
 public class TemperatureConverter {
 
-    TemperatureConverter(){
+   public TemperatureConverter(){
 
     }
     public double ConvertFtoC(double farenheit){

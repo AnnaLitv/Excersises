@@ -17,7 +17,7 @@ public class Controller {
         int c = 0;
         viewer.menuOutput();
         c = Input.enterInt();
-        while(c!=7){
+        while(c!=6){
             switch (c){
                 case 1:
                     viewer.MasOutput(shapesTeam.getShapes());
@@ -26,7 +26,7 @@ public class Controller {
                     viewer.NumbOutput(shapesTeam.calcAllAreas());
                    break;
                 case 3:
-                    viewer.MessageOutput(viewer.ENTER_TYPE);
+                    viewer.MessageOutput(Viewer.ENTER_TYPE);
                     viewer.NumbOutput(shapesTeam.calcTypeArea(Input.enterType()));
                     break;
                 case 4:
@@ -34,9 +34,6 @@ public class Controller {
                     break;
                 case 5:
                     viewer.MasOutput(shapesTeam.sortByColor());
-                    break;
-                case 6:
-                    shapesTeam.standartInit();
                     break;
                 default:
                     break;

@@ -12,6 +12,7 @@ public class ShapesTeam {
 
     public ShapesTeam(){
         shapes=new Shape[13];
+        standartInit();
     }
 
     public double calcAllAreas(){
