@@ -12,7 +12,6 @@ public class ShapesTeam {
 
     public ShapesTeam(){
         shapes=new Shape[13];
-        standartInit();
     }
 
     public double calcAllAreas(){
@@ -75,7 +74,7 @@ public class ShapesTeam {
         return shapes;
     }
 
-    private void standartInit(){
+    public void standartInit(){
         shapes[0]=new Triangle("green",46,67);
         shapes[1]=new Rectangle("red",23,34);
         shapes[2]= new Circle("beige",5.6 );

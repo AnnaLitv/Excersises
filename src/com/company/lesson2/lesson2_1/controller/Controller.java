@@ -17,7 +17,7 @@ public class Controller {
         int c = 0;
         viewer.menuOutput();
         c = Input.enterInt();
-        while(c!=6){
+        while(c!=7){
             switch (c){
                 case 1:
                     viewer.MasOutput(shapesTeam.getShapes());
@@ -34,6 +34,9 @@ public class Controller {
                     break;
                 case 5:
                     viewer.MasOutput(shapesTeam.sortByColor());
+                    break;
+                case 6:
+                    shapesTeam.standartInit();
                     break;
                 default:
                     break;

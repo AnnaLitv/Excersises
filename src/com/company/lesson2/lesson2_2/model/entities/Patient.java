@@ -1,6 +1,8 @@
 package com.company.lesson2.lesson2_2.model.entities;
 
-public class Patient {
+import java.io.Serializable;
+
+public class Patient implements Serializable{
     private String firstName;
     private String lastName;
     private String famName;

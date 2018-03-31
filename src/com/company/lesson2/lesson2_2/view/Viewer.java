@@ -10,11 +10,16 @@ public class Viewer {
             "2.Получить список пациентов, у которых номер медицинской карточки находится в заданном диапазоне\n"+
             "3.Упорядочить пациентов в алфавитном порядке согласно фамилии\n"+
             "4.Отобразить список пациентов\n"+
-            "5.EXIT\n"+
+            "5.Сериализовать в файл\n"+
+            "6.Отобразить десериализованные данные на экран\n"+
+            "7.EXIT\n"+
             "**************************************************";
     public static String INPUT_START_DIAPASON = "Введите начало диапазона(номер медкарты):";
     public static String INPUT_END_DIAPASON = "Введите конец диапазона(номер медкарты):";
+    public static String INPUT_NAME_OF_FILE = "Введите название файла:";
+    public static String INPUT_FORMAT = "Введите формат файла:";
     public static String INPUT_DIAGNOS = "Введите диагноз:";
+
 
     public Viewer(){ }
     public static void menuOutput(){

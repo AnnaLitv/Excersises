@@ -1,13 +1,9 @@
-package com.company.lesson2.lesson2_2.utilities;
+package com.company.project1.utils;
 
 import java.util.Scanner;
 
-public class InputUtility {
-
-    static Scanner in ;
-    public  InputUtility(){
-        in = new Scanner(System.in);
-    }
+public class InputUtils {
+    static Scanner in = new Scanner(System.in);
 
     public static String enterString(){
         return in.nextLine();

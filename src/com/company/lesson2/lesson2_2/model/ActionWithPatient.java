@@ -2,11 +2,12 @@ package com.company.lesson2.lesson2_2.model;
 
 import com.company.lesson2.lesson2_2.model.entities.Patient;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ActionWithPatient {
+public class ActionWithPatient implements Serializable{
 
     private ArrayList<Patient> patients;
 

@@ -1,3 +1,5 @@
+package com.company.lesson4.src.main.java;
+
 public class TemperatureConverter {
 
     TemperatureConverter(){
