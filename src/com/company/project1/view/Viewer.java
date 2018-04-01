@@ -21,20 +21,25 @@ public class Viewer {
     public static String GENERAL_CARRYING="Общая грузоподьемность:";
 
     public Viewer(){ }
+
+    //вывод меню на экран
     public static void menuOutput(){
         System.out.println(MENU);
     }
 
+    //вывод списка самолетов
     public void ArrayOutput(List<Plane> list){
         for (Plane p: list) {
             System.out.println(p.toString());
         }
     }
 
+    //вывод сообщения на экран
     public void showMessage(String message){
         System.out.println(message);
     }
 
+    //вывод числа на экран
     public void showInt(int n){
         System.out.println(n);
     }

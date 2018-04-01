@@ -1,11 +1,11 @@
 package com.company.project1.model.entities;
 
 public abstract class Plane {
-    protected String name;
-    protected int capacity;
-    protected int carrying;
-    protected int lengthOfFlight;
-    protected int fuel;
+    protected String name;//имя самолета
+    protected int capacity;//вместимость
+    protected int carrying;//грузоподьтемность
+    protected int lengthOfFlight;//дальность полета
+    protected int fuel;//количество потребляемого топлива
 
     public Plane(String name, int capacity, int carrying, int lengthOfFlight, int fuel) {
         this.name = name;

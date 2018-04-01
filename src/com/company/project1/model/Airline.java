@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Airline {
-    List<Plane> planes;
+    List<Plane> planes;//список самолетов авиакомпании
 
     public Airline(){
         planes = new ArrayList<>();
@@ -21,12 +21,14 @@ public class Airline {
         this.planes = planes;
     }
 
+    //добавить самолет в список
     public void addPlane(Plane plane){
         if(plane!=null){
             planes.add(plane);
         }
     }
 
+    //расчитать общую вместимость всех самолетов
     public int calculateCapacity(){
         int sum=0;
         for (Plane plane:planes) {
@@ -35,6 +37,7 @@ public class Airline {
         return sum;
     }
 
+    //расчитать общую грузоподьемность всех самолетов
     public int calculateCarrying(){
         int sum=0;
         for(Plane plane: planes){
@@ -43,14 +46,15 @@ public class Airline {
         return sum;
     }
 
+    //отсортировать список самолетов по дальности полета
     public List<Plane> sortByFlightLength(){
         List<Plane> planesCopy = new ArrayList<>(planes);
         ComparatorFlight comparatorFlight = new ComparatorFlight();
-        //Collections.copy(planesCopy,planes);
         planesCopy.sort(comparatorFlight);
         return planesCopy;
     }
 
+    //получить самолеты из диапазона потребления горючего
     public List<Plane> getPlanesInDiapasonFuel(int start, int end){
         List<Plane> planes1 = new ArrayList<>();
         for(Plane p: planes){
@@ -61,6 +65,7 @@ public class Airline {
         return planes1;
     }
 
+    //инициализировать список самолетов готовыми значениями
     public void initPlanesByStandart(){
         planes.add(new InternationalPlane("IntPlane1",569,1000,6000,900));
         planes.add(new TransportPlane("TransportPlane347",34,20000,800,7000,"Food"));

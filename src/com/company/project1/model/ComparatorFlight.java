@@ -3,7 +3,7 @@ package com.company.project1.model;
 import com.company.project1.model.entities.Plane;
 
 import java.util.Comparator;
-
+//сравнение по дальности полета
 public class ComparatorFlight implements Comparator<Plane> {
     @Override
     public int compare(Plane o1, Plane o2) {

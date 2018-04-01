@@ -1,7 +1,7 @@
 package com.company.project1.model.entities;
 
 public class TransportPlane extends Plane {
-    protected String kindOfgoods;
+    protected String kindOfgoods;//тип перевозимых грузов
 
     public TransportPlane(String name, int capacity, int carrying, int lengthOfFlight, int fuel, String kindOfgoods) {
         super(name, capacity, carrying, lengthOfFlight, fuel);

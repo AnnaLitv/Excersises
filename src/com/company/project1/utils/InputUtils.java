@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class InputUtils {
     static Scanner in = new Scanner(System.in);
 
+    //ввод числа
     public static int enterInt(){
         int n = 0;
         while (!in.hasNextInt()) {

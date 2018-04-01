@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="dcca236d-d298-4f11-bb7f-f7d8d92e992f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/project1/model/Airline.java" afterPath="$PROJECT_DIR$/src/com/company/project1/model/Airline.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/project1/model/ComparatorFlight.java" afterPath="$PROJECT_DIR$/src/com/company/project1/model/ComparatorFlight.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/project1/model/entities/InternationalPlane.java" afterPath="$PROJECT_DIR$/src/com/company/project1/model/entities/InternationalPlane.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/project1/model/entities/PassengerPlane.java" afterPath="$PROJECT_DIR$/src/com/company/project1/model/entities/PassengerPlane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/project1/model/entities/Plane.java" afterPath="$PROJECT_DIR$/src/com/company/project1/model/entities/Plane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/project1/model/entities/RegionalPlane.java" afterPath="$PROJECT_DIR$/src/com/company/project1/model/entities/RegionalPlane.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/project1/model/entities/TransportPlane.java" afterPath="$PROJECT_DIR$/src/com/company/project1/model/entities/TransportPlane.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/project1/utils/InputUtils.java" afterPath="$PROJECT_DIR$/src/com/company/project1/utils/InputUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/project1/view/Viewer.java" afterPath="$PROJECT_DIR$/src/com/company/project1/view/Viewer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/project2/model/entities/Text.java" afterPath="$PROJECT_DIR$/src/com/company/project2/model/entities/Text.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,86 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InternationalPlane.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/InternationalPlane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Plane.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/Plane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="method#Plane#0;class#Plane#0" expanded="false" />
-                <element signature="e#536#537#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegionalPlane.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/RegionalPlane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PassengerPlane.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/PassengerPlane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransportPlane.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/TransportPlane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Airline.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/Airline.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComparatorFlight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/ComparatorFlight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/project1/utils/InputUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,16 +48,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Viewer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/project1/view/Viewer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -179,13 +98,9 @@
         <option value="$PROJECT_DIR$/src/com/company/lesson2/lesson2_2/utilities/InputUtility.java" />
         <option value="$PROJECT_DIR$/src/com/company/lesson2/lesson2_2/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/company/lesson2/lesson2_2/model/Serialization.java" />
-        <option value="$PROJECT_DIR$/src/com/company/project1/model/entities/Plane.java" />
         <option value="$PROJECT_DIR$/src/com/company/project1/model/entities/LocalePlane.java" />
-        <option value="$PROJECT_DIR$/src/com/company/project1/model/entities/InternationalPlane.java" />
-        <option value="$PROJECT_DIR$/src/com/company/project1/model/entities/RegionalPlane.java" />
         <option value="$PROJECT_DIR$/src/com/company/project1/model/entities/Airline.java" />
         <option value="$PROJECT_DIR$/src/com/company/lesson4/src/test/java/TemperatureConverterTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/project1/model/ComparatorFlight.java" />
         <option value="$PROJECT_DIR$/src/com/company/lesson6/Serialization.java" />
         <option value="$PROJECT_DIR$/src/com/company/project1/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/project1/control/Controller.java" />
@@ -202,10 +117,14 @@
         <option value="$PROJECT_DIR$/src/com/company/project2/control/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/company/project2/model/WorkWithText.java" />
         <option value="$PROJECT_DIR$/src/com/company/project2/model/entities/Text.java" />
+        <option value="$PROJECT_DIR$/src/com/company/project1/model/entities/Plane.java" />
         <option value="$PROJECT_DIR$/src/com/company/project1/model/entities/PassengerPlane.java" />
         <option value="$PROJECT_DIR$/src/com/company/project1/model/entities/TransportPlane.java" />
-        <option value="$PROJECT_DIR$/src/com/company/project1/view/Viewer.java" />
+        <option value="$PROJECT_DIR$/src/com/company/project1/model/ComparatorFlight.java" />
         <option value="$PROJECT_DIR$/src/com/company/project1/utils/InputUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/company/project1/model/entities/InternationalPlane.java" />
+        <option value="$PROJECT_DIR$/src/com/company/project1/model/entities/RegionalPlane.java" />
+        <option value="$PROJECT_DIR$/src/com/company/project1/view/Viewer.java" />
         <option value="$PROJECT_DIR$/src/com/company/project1/model/Airline.java" />
       </list>
     </option>
@@ -585,7 +504,7 @@
       <workItem from="1521876236328" duration="8534000" />
       <workItem from="1522071929513" duration="649000" />
       <workItem from="1522245695349" duration="1914000" />
-      <workItem from="1522422119819" duration="23311000" />
+      <workItem from="1522422119819" duration="23922000" />
     </task>
     <task id="LOCAL-00001" summary="create epam repo">
       <created>1520253572875</created>
@@ -699,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522521399314</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="delete some deprecated functions">
+      <created>1522581549135</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1522581549135</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -735,7 +661,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98625000" />
+    <option name="totallyTimeSpent" value="99236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -823,7 +749,8 @@
     <MESSAGE value="complete project1" />
     <MESSAGE value="complete 5_2_3 task" />
     <MESSAGE value="start project2 &quot;String&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="start project2 &quot;String&quot;" />
+    <MESSAGE value="delete some deprecated functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete some deprecated functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1220,53 +1147,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/InternationalPlane.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/ComparatorFlight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/project1/utils/InputUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/Plane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="method#Plane#0;class#Plane#0" expanded="false" />
-            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/RegionalPlane.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/InternationalPlane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/PassengerPlane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/TransportPlane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/entities/RegionalPlane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/project1/view/Viewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1279,28 +1225,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/project1/utils/InputUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/ComparatorFlight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/project1/model/Airline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
