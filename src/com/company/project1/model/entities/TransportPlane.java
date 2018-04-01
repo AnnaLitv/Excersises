@@ -28,18 +28,4 @@ public class TransportPlane extends Plane {
                 '}';
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        TransportPlane that = (TransportPlane) o;
-
-        return kindOfgoods != null ? kindOfgoods.equals(that.kindOfgoods) : that.kindOfgoods == null;
-    }
-
-    @Override
-    public int hashCode() {
-        return kindOfgoods != null ? kindOfgoods.hashCode() : 0;
-    }
 }

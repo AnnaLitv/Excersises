@@ -17,6 +17,7 @@ public class Viewer {
     public static String INPUT_END_DIAPASON = "Введите конец диапазона(потребление горючего):";
     public static String NULL_LIST="Нет самолетов по данному запросу!";
     public static String GENERAL_CAPACITY="Общая вместимость:";
+    public static String INP_ERROR="Ошибка! Введите число!";
     public static String GENERAL_CARRYING="Общая грузоподьемность:";
 
     public Viewer(){ }

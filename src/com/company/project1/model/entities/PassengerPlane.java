@@ -18,19 +18,4 @@ public abstract class PassengerPlane extends Plane {
                 ", fuel=" + fuel +
                 '}';
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        PassengerPlane that = (PassengerPlane) o;
-
-        return food == that.food;
-    }
-
-    @Override
-    public int hashCode() {
-        return (food ? 1 : 0);
-    }
 }

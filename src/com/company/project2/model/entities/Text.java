@@ -12,12 +12,12 @@ public class Text {
     }
 
     private void makeSentences(String text){
-        text=deleteSpaces(text);
-        if(text.length()!=0){
-            for (){
-
-            }
-        }
+//        text=deleteSpaces(text);
+//        if(text.length()!=0){
+//            for (){
+//
+//            }
+//        }
     }
 
     private String deleteSpaces(String text){
