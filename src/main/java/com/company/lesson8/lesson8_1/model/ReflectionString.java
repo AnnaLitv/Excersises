@@ -7,9 +7,9 @@ public class ReflectionString {
 
     public String replace(String str1) {
         try {
-            Field val = str.getClass().getDeclaredField("val");
-            val.setAccessible(true);
-            val.set(str,str1.toCharArray());
+            Field value = str.getClass().getDeclaredField("value");
+            value.setAccessible(true);
+            value.set(str,str1.toCharArray());
             return "Success!";
         } catch (NoSuchFieldException | IllegalAccessException e) {
             e.printStackTrace();
