@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list id="432e9a8e-cc5a-496a-b00f-154e30d9795b" name="Revert: add unversioned file (39d8ff3)" comment="" />
     <list default="true" id="dcca236d-d298-4f11-bb7f-f7d8d92e992f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_3/Lambda.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_3/Runner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_3/main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/Lambda.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/Runner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/epam.iml" afterPath="$PROJECT_DIR$/epam.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,36 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_3/main.java">
+      <file leaf-file-name="Lambda.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/Lambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lambda.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_3/Lambda.java">
+      <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-              <folding>
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_3/Runner.java">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="272">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -70,9 +62,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -87,10 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/lesson5/lesson5_2_3/RedBlackEnum.java" />
-        <option value="$PROJECT_DIR$/src/com/company/lesson5/lesson5_2_3/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/company/lesson5/lesson5_2_3/RedBlackTree.java" />
-        <option value="$PROJECT_DIR$/src/com/company/lesson5/lesson5_2_3/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/project2/utils/InputUtils.java" />
         <option value="$PROJECT_DIR$/src/com/company/project2/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/project2/control/Controller.java" />
@@ -138,6 +126,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_3/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_3/Lambda.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_3/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/Function.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/Lambda.java" />
       </list>
     </option>
   </component>
@@ -236,7 +228,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="lesson8" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson8_3" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson8_4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="epam" type="b2602c69:ProjectViewProjectNode" />
@@ -336,12 +328,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\3 КУРС\2 CЕМЕСТР\epam" />
-      <recent name="D:\3 КУРС\2 CЕМЕСТР\epam\src\com\company" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.company" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\3 КУРС\2 CЕМЕСТР\epam\src\main\java\com\company\lesson8\lesson8_4" />
+      <recent name="D:\3 КУРС\2 CЕМЕСТР\epam\src\main\java\com\company\lesson7" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.lesson7.utilities" />
@@ -349,8 +341,9 @@
       <recent name="com.company.lesson7.controller" />
       <recent name="com.company.lesson5.lesson5_1.utilities" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\3 КУРС\2 CЕМЕСТР\epam\src\main\java\com\company\lesson7" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\3 КУРС\2 CЕМЕСТР\epam" />
+      <recent name="D:\3 КУРС\2 CЕМЕСТР\epam\src\com\company" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main (4)">
+  <component name="RunManager" selected="Application.main (5)">
     <configuration name="ShapeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -482,14 +475,14 @@
       <module name="epam" />
       <envs />
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.company.lesson2.lesson2_2.*" />
+          <option name="PATTERN" value="com.company.lesson8.lesson8_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.company.lesson2.lesson2_2.main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.lesson8.lesson8_4.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -502,19 +495,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.main (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.main (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.main (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.main (4)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.main (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.main (3)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.main (4)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.main (5)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.main (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.main (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.main (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.main (5)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.main (4)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.main (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.main (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -548,7 +541,7 @@
       <workItem from="1522860533143" duration="1027000" />
       <workItem from="1523355541693" duration="3232000" />
       <workItem from="1523366031045" duration="7092000" />
-      <workItem from="1523459437702" duration="4883000" />
+      <workItem from="1523459437702" duration="7845000" />
     </task>
     <task id="LOCAL-00001" summary="create epam repo">
       <created>1520253572875</created>
@@ -711,7 +704,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523462571297</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="complete task 8_3">
+      <created>1523464683228</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1523464683228</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -747,10 +747,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122478000" />
+    <option name="totallyTimeSpent" value="125440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -761,7 +762,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16202946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42062193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2782324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5695581" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -841,7 +842,8 @@
     <MESSAGE value="complete task 7" />
     <MESSAGE value="add files" />
     <MESSAGE value="complete task 8_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete task 8_2" />
+    <MESSAGE value="complete task 8_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete task 8_3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -850,34 +852,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/project2/model/entities/Delim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/project2/model/entities/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="68" lean-forward="false" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/project2/model/entities/Delim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/project2/model/entities/Sentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/project1/model/Airline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1258,8 +1232,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_3/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="201">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/lesson8/lesson8_4/Lambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding />
         </state>
       </provider>
