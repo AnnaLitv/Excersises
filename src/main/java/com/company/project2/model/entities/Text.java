@@ -22,7 +22,7 @@ public class Text {
         if(text.length()!=0){
             for (int i=0;i<text.length();i++){
                 if(del.charIsDelim(text.charAt(i))){
-                    sentences[num] = new Sentence(new StringBuilder(text.substring(start, i)));
+                    //sentences[num] = new Sentence(new StringBuilder(text.substring(start, i)));
                     if (i < text.length() - 2 && text.charAt(i + 1) == ' ') {
                         start = i + 2;
                     } else
