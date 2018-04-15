@@ -1,67 +1,47 @@
 package com.company.project2.model.entities;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
 public class Sentence {
-    private Word[] sentenceMembers = null;
+    private List<Word> words;
 
-    public Sentence(StringBuffer str){
-        if (str.length() != 0) {
-            deleteSpaces(str);
-            sentenceMembers = new Word[sizeOfSent(str)];
-            int lexemeCount = 0;
-            int lastLexemeStart = 0;
-            StringBuffer word;
-            for (int i = 0; i < str.length(); i++) {
-                if (charIsDelim(str.charAt(i))) {
-                    if (i - lastLexemeStart > 0) {
-                        word = new StringBuffer(str.substring(lastLexemeStart, i));
-                        sentenceMembers[lexemeCount] = new Word(word);
-                        //wods[lexemeCount] = new StringBuffer(word);
-                        lexemeCount++;
-                    }
-                    lastLexemeStart = i + 1;
-                } else if (i == str.length() - 1) {
-                    word = new StringBuffer(str.substring(lastLexemeStart, i + 1));
-                    //wods[lexemeCount] = new StringBuffer(word);
-                    sentenceMembers[lexemeCount] = new Word(word);
-                }
-            }
-        }
-    }
-    void deleteSpaces(StringBuffer str) {
-        for (int i = 0; i < str.length(); ++i) {
-            if (str.charAt(i) == '\t') {
-                str.setCharAt(i, ' ');
-            } else if ((str.charAt(i) == ' ' || str.charAt(i) == '\t') && (i + 1 < str.length()) && (str.charAt(i + 1) == ' ' || str.charAt(i + 1) == '\t')) {
-                str.deleteCharAt(i);
-                i--;
-            }
-        }
-        if (str.charAt(str.length() - 1) == ' ') str.deleteCharAt(str.length() - 1);
+    public Sentence() {
     }
 
-    int sizeOfSent(StringBuffer str) {
-        int lexemeCount = 0;
-        int lastLexemeStart = 0;
-        for (int i = 0; i < str.length(); i++) {
-            if (charIsDelim(str.charAt(i))) {
-                if (i - lastLexemeStart > 0) {
-                    lexemeCount++;
-                }
-                lastLexemeStart = i + 1;
-            } else if (i == str.length() - 1) {
-                lexemeCount++;
-            }
-        }
-        return lexemeCount;
+    public Sentence(String sentence) {
+        this.words = sentenceToWords(sentence);
     }
 
-    private boolean charIsDelim(char c) {
-        char[] delimiters = new char[]{'.', ',', ' ', '?', '!', '-', '\t', '\n', '\r'};
-        for (int i = 0; i < delimiters.length; i++) {
-            if (c == delimiters[i]) {
-                return true;
-            }
+    private List<Word> sentenceToWords(String sentence) {
+        List<Word> resultWords = new ArrayList<>();
+        String[] stringWords = sentence.split(Delim.DELIMS_FOR_SENTENCE);
+        for (String word: stringWords) {
+            resultWords.add(new Word(word));
         }
-        return false;
+        return resultWords;
+    }
+
+    public List<Word> getWords() {
+        return words;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (Word word: words) {
+            stringBuilder.append(word);
+            stringBuilder.append(" ");
+        }
+        return stringBuilder.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Sentence sentence = (Sentence) o;
+        return Objects.equals(words, sentence.words);
     }
 }

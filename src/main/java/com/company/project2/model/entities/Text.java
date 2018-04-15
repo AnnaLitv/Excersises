@@ -1,52 +1,44 @@
 package com.company.project2.model.entities;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Text {
-    private Sentence[] sentences = null;
+    private List<Sentence> sentences;
 
-    public Text(StringBuilder text){
-        if(text!=null){
-            makeSentences(text);
-        }
+    public Text() {
     }
 
-    private void makeSentences(StringBuilder text){
-        int start = 0;
-        int num = 0;
-        Delim del = new Delim();
-        if (!del.charIsDelim(text.charAt(text.length() - 1))) {
-            text.append('.');
-        }
-        text=deleteSpaces(text);
-        if(text.length()!=0){
-            for (int i=0;i<text.length();i++){
-                if(del.charIsDelim(text.charAt(i))){
-                    //sentences[num] = new Sentence(new StringBuilder(text.substring(start, i)));
-                    if (i < text.length() - 2 && text.charAt(i + 1) == ' ') {
-                        start = i + 2;
-                    } else
-                        start = i + 1;
-                    num++;
-                }
-            }
-        }
+    public Text(String text) {
+        this.sentences = textToSentences(text);
     }
 
-    private StringBuilder deleteSpaces(StringBuilder text){
-        StringBuilder stringBuilder = new StringBuilder(text);
-        for(int i=0;i<stringBuilder.length();i++){
-            if(stringBuilder.charAt(i)=='\t'){
-                stringBuilder.setCharAt(i,' ');
-            }else if((stringBuilder.charAt(i) == ' ' || stringBuilder.charAt(i) == '\t') && (i + 1 < stringBuilder.length())
-                    && (stringBuilder.charAt(i + 1) == ' ' || stringBuilder.charAt(i + 1) == '\t')){
-                stringBuilder.deleteCharAt(i);
-                i--;
-            }
+    private List<Sentence> textToSentences(String text) {
+        String textTemp = deleteSpaces(text.toLowerCase());
+        List<Sentence> sentencesFinal = new ArrayList<>();
+        String[] splitSentences = textTemp.split(Delim.DELIMS_FOR_TEXT);
+        for (String str: splitSentences) {
+            sentencesFinal.add(new Sentence(str.trim()));
         }
-        if (stringBuilder.charAt(stringBuilder.length() - 1) == ' ') {
-            stringBuilder.deleteCharAt(stringBuilder.length() - 1);
+        return sentencesFinal;
+    }
+
+    private String deleteSpaces(String text) {
+        return text.replaceAll("\\s{2,}", " ").trim();
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (Sentence sentence: sentences) {
+            stringBuilder.append(sentence.toString());
+            stringBuilder.append(". ");
         }
-        return stringBuilder;
+        return stringBuilder.toString();
+    }
+
+
+    public List<Sentence> getSentences() {
+        return sentences;
     }
 }
