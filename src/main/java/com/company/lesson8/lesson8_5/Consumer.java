@@ -1,4 +1,5 @@
 package com.company.lesson8.lesson8_5;
+
 @FunctionalInterface
 public interface Consumer<T> {
     String convert(T str);
